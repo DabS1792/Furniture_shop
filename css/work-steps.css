@@ -1,0 +1,108 @@
+.work-steps {
+    padding: 150px 0;
+}
+
+.work-steps__title-intro {
+    text-align: center;
+}
+
+.work-steps__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #313131;
+}
+
+.work-steps__title-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18.1px;
+    padding: 40px 0 130px 0;
+    font-weight: 400;
+    color: #616161;
+}
+
+.work-steps__items {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.work-steps__box-project {
+    padding: 70px 60px 55px 120px;
+    text-align: left;
+    max-width: 458px;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+    left: 25px;
+    top: -50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #fc5f45;
+}
+
+.work-steps__item-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #272727;
+}
+
+.work-steps__item-title-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #616161;
+    padding-top: 25px;
+    line-height: 27px;
+}
+
+.work-steps__box-research {
+    padding: 70px 60px 55px 120px;
+    text-align: left;
+    max-width: 458px;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+    right: 25px;
+    top: -50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #38c695;
+}
+
+.work-steps__box-wireframe {
+    padding: 70px 60px 55px 120px;
+    text-align: left;
+    max-width: 458px;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+    left: 25px;
+    top: -50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #b27cf5;
+}
+
+.work-steps__box-development {
+    padding: 70px 60px 55px 120px;
+    text-align: left;
+    max-width: 458px;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+    right: 25px;
+    top: -50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #feb960;
+}
+
+.hover:hover {
+    background-color: #c747e0cc;
+}

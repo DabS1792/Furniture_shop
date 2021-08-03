@@ -1,0 +1,262 @@
+.our-team {
+    background-color: #f7f7f7;
+    padding: 150px 0;
+}
+
+.our-team__title-intro {
+    text-align: center;
+}
+
+.our-team__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #313131;
+}
+
+.our-team__title-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 80px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.our-team__team-intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team__team-person-Michael {
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #fc5f45;
+    background-color: #ffffff;
+}
+
+.our-team__team-person-David {
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #38c695;
+    background-color: #ffffff;
+}
+
+.our-team__team-person-Anna {
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #b27cf5;
+    background-color: #ffffff;
+}
+
+.our-team__team-person-Jason {
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #feb960;
+    background-color: #ffffff;
+}
+
+.our-team__team-person-Michael div+div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13.2px;
+    font-weight: 400;
+    color: #616161;
+    padding-bottom: 12px;
+}
+
+.our-team__team-person-David div+div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13.2px;
+    font-weight: 400;
+    color: #616161;
+    padding-bottom: 12px;
+}
+
+.our-team__team-person-Anna div+div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13.2px;
+    font-weight: 400;
+    color: #616161;
+    padding-bottom: 12px;
+}
+
+.our-team__team-person-Jason div+div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13.2px;
+    font-weight: 400;
+    color: #616161;
+    padding-bottom: 12px;
+}
+
+.our-team__Michael {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18.3px;
+    font-weight: 500;
+    color: #fc5f45;
+    padding: 12px 0 8px 0;
+}
+
+.our-team__David {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18.3px;
+    font-weight: 500;
+    color: #38c695;
+    padding: 12px 0 8px 0;
+}
+
+.our-team__Anna {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18.3px;
+    font-weight: 500;
+    color: #b27cf5;
+    padding: 12px 0 8px 0;
+}
+
+.our-team__Jason {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18.3px;
+    font-weight: 500;
+    color: #feb960;
+    padding: 12px 0 8px 0;
+}
+
+.our-team__about-Bennet-intro {
+    margin-top: 50px;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.our-team__about-Bennet-intro::before {
+    content: "";
+    position: absolute;
+    left: 95px;
+    top: -73px;
+    border: 31px solid transparent;
+    border-bottom: 43px solid #ffffff;
+}
+
+.our-team__about-Bennet-title {
+    text-align: left;
+    max-width: 635px;
+}
+
+.our-team__about-Bennet-title div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #272727;
+}
+
+.our-team__about-Bennet-title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #616161;
+    padding-top: 35px;
+    line-height: 27px;
+}
+
+.our-team__about-Bennet-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-team__social-icons {
+    margin-top: 45px;
+    border: 2px solid #efefef;
+    padding: 30px 20px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.our-team__social-icons::before {
+    content: " ";
+    position: absolute;
+    left: -80px;
+    top: 50px;
+    background-image: url(../img/our-team/about-Bennet/__681.png);
+    width: 36px;
+    height: 36px;
+}
+
+.our-team__social-icons li+li {
+    padding-top: 10px;
+}
+
+.our-team__social-icons li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #616161;
+    padding-left: 20px;
+}
+
+.our-team__facebook a {
+    position: relative;
+}
+
+.our-team__facebook a:before {
+    content: " ";
+    position: absolute;
+    background-image: url(../img/our-team/team_social-icons/facebook.png);
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 4px;
+}
+
+.our-team__twitter a {
+    position: relative;
+}
+
+.our-team__twitter a:before {
+    content: " ";
+    position: absolute;
+    background-image: url(../img/our-team/team_social-icons/twitter.png);
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 4px;
+}
+
+.our-team__LinkedIn a {
+    position: relative;
+}
+
+.our-team__LinkedIn a:before {
+    content: " ";
+    position: absolute;
+    background-image: url(../img/our-team/team_social-icons/linked-in.png);
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 4px;
+}
+
+.our-team__Instagram a {
+    position: relative;
+}
+
+.our-team__Instagram a:before {
+    content: " ";
+    position: absolute;
+    background-image: url(../img/our-team/team_social-icons/instagram.png);
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 4px;
+}

@@ -1,0 +1,323 @@
+.pricing-table {
+    background-color: #f7f7f7;
+    padding: 150px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing-table__title-inro {}
+
+.pricing-table__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #313131;
+    text-align: center;
+}
+
+.pricing-table__title-text {
+    font-size: 18.1px;
+    font-weight: 400;
+    color: #616161;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pricing-table__packages {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-table__starter {
+    padding: 35px 80px;
+    text-align: center;
+    background: #fff;
+    border-top: 3px solid #38c695;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.package-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #313131;
+}
+
+.package-pricing__month-starter {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    margin-top: 85px;
+    margin-bottom: 175px;
+}
+
+.package-pricing__month-starter:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 112px;
+    height: 112px;
+    background-image: url(../img/pricing-table/pricing-starter.png);
+}
+
+.package-pricing__month-starter div:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%, -89%);
+    z-index: 10;
+}
+
+.package-pricing__month-starter div+div {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, 67%);
+    z-index: 10;
+}
+
+.pricing-table__text {
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.bold {
+    font-weight: 700;
+    color: #000;
+}
+
+.pricing-table__text-sp {
+    position: relative;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #616161;
+    padding-left: 15px;
+}
+
+.pricing-table__text-sp::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    height: 12px;
+    width: 6px;
+    left: 12%;
+    top: 30%;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+}
+
+.pricing-table__text-cs {
+    position: relative;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #616161;
+    padding-left: 15px;
+}
+
+.pricing-table__text-cs::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    height: 12px;
+    width: 6px;
+    left: 0;
+    top: 30%;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+}
+
+.pricing-table__text-fr {
+    position: relative;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #616161;
+    padding-left: 15px;
+}
+
+.pricing-table__text-fr::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    height: 12px;
+    width: 6px;
+    left: 15%;
+    top: 30%;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+}
+
+.pricing-table__btn-starter {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #38c695;
+    padding: 19px 37px;
+    border: 2px solid #38c695;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pricing-table__btn-starter:hover {
+    color: #fff;
+    background-color: #38c695;
+}
+
+.pricing-table__ultimate {
+    padding: 35px 80px;
+    text-align: center;
+    background: #fff;
+    border-top: 3px solid #fc5f45;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.package-pricing__month-ultimate {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    margin-top: 85px;
+    margin-bottom: 175px;
+}
+
+.package-pricing__month-ultimate:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 112px;
+    height: 112px;
+    background-image: url(../img/pricing-table/pricing-ultimate.png);
+}
+
+.package-pricing__month-ultimate div:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%, -89%);
+    z-index: 10;
+}
+
+.package-pricing__month-ultimate div+div {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, 67%);
+    z-index: 10;
+}
+
+.pricing-table__btn-ultimate {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fc5f45;
+    padding: 19px 37px;
+    border: 2px solid #fc5f45;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pricing-table__btn-ultimate:hover {
+    color: #fff;
+    background-color: #fc5f45;
+}
+
+.pricing-table__proffesional {
+    padding: 35px 80px;
+    text-align: center;
+    background: #fff;
+    border-top: 3px solid #b27cf5;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.package-pricing__month-proffesional {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    margin-top: 85px;
+    margin-bottom: 175px;
+}
+
+.package-pricing__month-proffesional:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 112px;
+    height: 112px;
+    background-image: url(../img/pricing-table/pricing-proffesional.png);
+}
+
+.package-pricing__month-proffesional div:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%, -89%);
+    z-index: 10;
+}
+
+.package-pricing__month-proffesional div+div {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, 67%);
+    z-index: 10;
+}
+
+.pricing-table__btn-proffesional {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #b27cf5;
+    padding: 19px 37px;
+    border: 2px solid #b27cf5;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pricing-table__btn-proffesional:hover {
+    color: #fff;
+    background-color: #b27cf5;
+}

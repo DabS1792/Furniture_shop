@@ -1,0 +1,34 @@
+.awesome-video {
+    background-color: #3f4049;
+}
+
+.awesome-video__intro {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.awesome-video__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.awesome-video__btn img {
+    padding-top: 35px;
+    transition: all .5s;
+}
+
+.awesome-video__btn img:hover {
+    transform: scale(1.3);
+}
+
+.awesome-video__bottom-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 80px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 15px;
+}

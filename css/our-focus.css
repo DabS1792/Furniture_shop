@@ -1,0 +1,83 @@
+.our-focus {
+    padding: 150px 0;
+    background-color: #f7f7f7;
+}
+
+.our-focus__content {
+    text-align: center;
+}
+
+.our-focus__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #313131;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.our-focus__title-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 80px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.our-focus__intro-items {
+    padding: 85px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-focus__title-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: 500;
+    color: #313131;
+}
+
+.our-focus__wd,
+.our-focus__ux,
+.our-focus__photography,
+.our-focus__app-development {
+    background-color: #ffffff;
+    max-width: 263px;
+    padding: 65px 37px;
+}
+
+.our-focus__item-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.our-focus__wd {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid #fb806b;
+}
+
+.our-focus__ux {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid #38c695;
+}
+
+.our-focus__photography {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid #ccabf6;
+}
+
+.our-focus__app-development {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid #feb960;
+}

@@ -1,0 +1,205 @@
+.our-blog {
+    background-color: #f7f7f7;
+    padding: 150px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.our-blog__contnet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 77px;
+}
+
+.our-blog__item-red {
+    padding: 31px 52px 45px 52px;
+    text-align: left;
+    max-width: 555px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #fc5f45;
+    background-color: #ffffff;
+}
+
+.our-blog__item-red:hover {
+    background-color: lime;
+}
+
+.our-blog__item-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+    margin: 20px 0px 34px 0;
+}
+
+.our-blog__item-title-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 27px;
+}
+
+.bold {
+    font-weight: 700;
+    color: #272727;
+}
+
+.our-blog__img {
+    position: relative;
+}
+
+.our-blog__img::before {
+    content: "Damian Schreiber";
+    position: absolute;
+    bottom: 35px;
+    left: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fc5f45;
+}
+
+.our-blog__img::after {
+    content: "December 10, 2015	";
+    position: absolute;
+    bottom: 35px;
+    left: 212px;
+    opacity: 0.7;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+/* block1 */
+
+.our-blog__green {
+    padding: 33px 51px 33px 38px;
+    background-color: #fff;
+    border-bottom: 3px solid #38c695;
+    max-width: 610px;
+    margin-bottom: 15px;
+}
+
+.our-blog__green:hover {
+    background-color: lime;
+}
+
+.our-blog__item-header-green {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.our-blog__item-header-green div:first-child {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #38c695;
+}
+
+.our-blog__item-header-green div:last-child {
+    font-size: 13px;
+    font-weight: 400;
+    color: #616161;
+    margin-left: 25px;
+}
+
+.bold-intro-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #272727;
+    margin: 21px 0;
+}
+
+.intro-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 27px;
+}
+
+.bold-green {
+    font-weight: 700;
+    color: #38c695;
+}
+
+
+/* block2 */
+
+.our-blog__purple {
+    padding: 33px 51px 33px 38px;
+    background-color: #fff;
+    border-bottom: 3px solid #b27cf5;
+    max-width: 610px;
+    margin-bottom: 15px;
+}
+
+.our-blog__purple:hover {
+    background-color: lime;
+}
+
+.our-blog__item-header-purple {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.our-blog__item-header-purple div:first-child {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #b27cf5;
+}
+
+.our-blog__item-header-purple div:last-child {
+    font-size: 13px;
+    font-weight: 400;
+    color: #616161;
+    margin-left: 25px;
+}
+
+.bold-purple {
+    font-weight: 700;
+    color: #b27cf5;
+}
+
+
+/* block3 */
+
+.our-blog__brown {
+    padding: 33px 51px 33px 38px;
+    background-color: #fff;
+    border-bottom: 3px solid #feb960;
+    max-width: 610px;
+}
+
+.our-blog__brown:hover {
+    background-color: lime;
+}
+
+.our-blog__item-header-brown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.our-blog__item-header-brown div:first-child {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #feb960;
+}
+
+.our-blog__item-header-brown div:last-child {
+    font-size: 13px;
+    font-weight: 400;
+    color: #616161;
+    margin-left: 25px;
+}
+
+.bold-brown {
+    font-weight: 700;
+    color: #feb960;
+}
